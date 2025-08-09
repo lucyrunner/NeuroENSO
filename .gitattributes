@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+sfcWind_Global_ensemble_historical_r1i1p1f1_mean.nc filter=lfs diff=lfs merge=lfs -text
+tas_Global_ensemble_historical_r1i1p1f1_mean.nc filter=lfs diff=lfs merge=lfs -text
+tos_Omon_ensemblemean_historical_r1i1p1f1_190001-201412_actual.nc filter=lfs diff=lfs merge=lfs -text
